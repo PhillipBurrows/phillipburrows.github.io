@@ -20,11 +20,46 @@
   <div id="page-content">
     <div class="wrapper">
       <img src="img/main_pic.jpg" alt="picture">
+      <p style="text-align: center;"><a href="mailto:phil.burrows@protonmail.com">phil.burrows@protonmail.com</a> | Calgary, Alberta, Canada</p>
+      <p>Former government geospatial data scientist making a career shift toward software developement. Currently focusing on the learning about the Bitcoin protocol and FOS full-stack courses</p>
+      <h4>Currently Reading</h4>
+      <ul>
+        <li>Programming Bitcoin - Jimmy Song</li>
+        <li>The Soverign Individual - William Rees-Mogg and James Dale Davidson</li>
+      </ul>
+      <h4>Social Media and Other Sites</h4>
+      <ul>
+        <li><a href="https://github.com/PhillipBurrows">GitHub</a></li>
+        <li>
+          Nostr pubKey: <input type="text" value="npub1rgmthp6wwe4hr6gtx7vaexazykl7uk0w060pqf5dhwtds7rljylsp6xpyk" id="myInput">
+<button onclick="myFunction()">Copy text</button>
+
+<script>
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+  
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+        </li>
+        <li><a href="https://www.strava.com/athletes/11982310">Strava</a></li>
+      </ul>
     </div>
 
   </div>
-  <footer class="site-footer wrapper">
-
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>Phillip</p>
+    </div>
   </footer>
 </body>
 </html>
