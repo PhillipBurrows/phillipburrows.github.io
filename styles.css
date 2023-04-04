@@ -83,3 +83,8 @@ a:visited {
 a {
     text-decoration: none;
 }
+
+.course-name {
+    margin: 0;
+    
+}
